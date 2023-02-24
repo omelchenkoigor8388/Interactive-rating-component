@@ -6,5 +6,5 @@
 
 ## Deploying my project
 
-- [GitHub Pages](https://pages.github.com/)
+- [https://interactive-rating-component](https://interactive-rating-component-plum-six.vercel.app/)
 
