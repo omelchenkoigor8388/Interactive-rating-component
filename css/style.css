@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+    font-family: 'Overpass', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+    background-color: hsl(216, 12%, 8%);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    color: white;
+}
+
+/* Cart-one */
+.assessment-card {
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+
+    background-color: hsl(213, 19%, 18%);
+}
+
+.star {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(214, 19%, 21%);
+}
+
+/* Text */
+.text h1{
+    font-weight: 700;
+}
+
+.text p {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 50%;
+}
+
+/* Grades */
+.grades {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.score {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(214, 19%, 21%);
+}
+
+.score:active {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.myClass{
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+}
+
+.divNone {
+    display: none;
+}
+
+
+/* Cart-two */
+.phone-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+
+    color: hsl(25, 97%, 53%);
+}
+
+.rating p {
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 20px;
+    background-color: hsl(214, 19%, 21%);
+}
+
+.cart-two h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.cart-two p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* Button */
+button {
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    border: none;
+    cursor: pointer;
+
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+button:active {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+/* Mobile */
+@media(max-width: 816px){
+    .assessment-card {
+        width: 280px;
+    }
+
+    button {
+        width: 280px;
+    }
+
+}
